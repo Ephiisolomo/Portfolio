@@ -9,10 +9,10 @@ import '../styles/portfolio.css'; // Import custom CSS for Portfolio component
 
 const Portfolio = () => {
   const projects = [
-    { name: 'Supply Chain Management System', image: SCMPic, link: 'https://example.com/project1', desc : "Sample description for the projects" },
-    { name: 'Project Management System', image: PMPic, link: 'https://example.com/project2', desc : "Sample description for the projects" },
-    { name: 'AI-empowered Medical Assistant System', image: AIPic, link: 'https://example.com/project3', desc : "Sample description for the projects" },
-    { name: 'E-commerce Web Application', image: ECOPic, link: 'https://example.com/project3', desc : "Sample description for the projects" },
+    { name: 'Supply Chain Management System', image: SCMPic, link: 'https://example.com/project12', desc : "Sample description for the projects" },
+    { name: 'Project Management System', image: PMPic, link: 'https://example.com/project21', desc : "Sample description for the projects" },
+    { name: 'AI-empowered Medical Assistant System', image: AIPic, link: 'https://example.com/project32', desc : "Sample description for the projects" },
+    { name: 'E-commerce Web Application', image: ECOPic, link: 'https://example.com/project13', desc : "Sample description for the projects" },
   ];
   const [isVisible, setIsVisible] = useState(false);
 
