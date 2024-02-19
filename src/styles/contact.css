@@ -1,0 +1,59 @@
+/* contact.css */
+.contact-section {
+    padding: 50px 0;
+  }
+  .header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #444443; /* White background for elegance */
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.3); /* Subtle box shadow for depth */
+  }
+  .contact-heading {
+    font-family: 'Playfair Display', serif; /* Stylish and elegant serif font */
+    font-size: 36px; /* Moderate font size for readability */
+    font-weight: bold; /* Emphasize the heading */
+    color: #232222; /* Dark gray color for sophistication */
+    margin: 0; /* Remove default margin */
+    padding: 0 20px; /* Add padding for spacing */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  .contact-heading:hover{
+    color: #ffffff;
+  }
+  .contact-info {
+    color: #ffffff;
+  }
+  
+  .contact-info p {
+    margin-bottom: 10px;
+  }
+  
+  .contact-info a {
+    color: #30D1ff;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  .fade-in {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .fade-in.visible {
+    opacity: 1;
+  }
+/* @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  } */
+  

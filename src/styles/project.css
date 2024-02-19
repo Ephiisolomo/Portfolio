@@ -1,0 +1,31 @@
+.project-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .project-card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .project-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .project-name {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .project-desc {
+    font-size: 16px;
+    margin-top: 8px;
+    text-align: center;
+  }
