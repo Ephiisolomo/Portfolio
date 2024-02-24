@@ -14,10 +14,13 @@
     font-family: 'Playfair Display', serif; /* Stylish and elegant serif font */
     font-size: 36px; /* Moderate font size for readability */
     font-weight: bold; /* Emphasize the heading */
-    color: #232222; /* Dark gray color for sophistication */
+    color: #ffffff;
     margin: 0; /* Remove default margin */
     padding: 0 20px; /* Add padding for spacing */
     transition: color 0.3s ease; /* Smooth color transition on hover */
+    text-align: center;
+    margin-bottom: 60px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
   .contact-heading:hover{
     color: #ffffff;
