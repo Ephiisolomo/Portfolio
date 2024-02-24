@@ -1,6 +1,6 @@
 // Testimonials.js
 import React from 'react';
-
+import '../styles/testimony.css' //import custom CSS for the testimonial page
 const Testimonials = () => {
   return (
     <section id="testimonials" className="testimonials-section">
